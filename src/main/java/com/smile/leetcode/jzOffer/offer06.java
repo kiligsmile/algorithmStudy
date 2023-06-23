@@ -13,7 +13,7 @@ package com.smile.leetcode.jzOffer;
  class ListNode {
      int val;
      ListNode next;
-     ListNode(int x) {
+     ListNode(int x, ListNode head) {
          val = x;
      }
 }
