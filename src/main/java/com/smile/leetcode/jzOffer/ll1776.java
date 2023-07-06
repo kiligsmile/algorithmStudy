@@ -4,28 +4,20 @@ public class l1776 {
     class Solution {
         public String mergeAlternately(String word1, String word2) {
             int len1=word1.length();
-            int len2=word2.length();
-            StringBuffer s =new StringBuffer(len1+len2);
-            int count=0;
-            for(int i=0;i<len1&&i<len2;i++){
-                s.setCharAt(count,word1.charAt(i));
-                count++;
-                s.setCharAt(count,word2.charAt(i));
-                count++;
+        int len2=word2.length();
+        StringBuilder s =new StringBuilder();
+        int j=0,i=0;
+        while(j<len1||i<len2){
+            if(j<len1){
+                s.append(word1.charAt(j));
+                j++;
             }
-            int index=count/2;
-            if(len1<len2){
-                for(int i=index;i<len2;i++){
-                    s.setCharAt(count,word2.charAt(i));
-                    count++;
-                }
-            }else{
-                for(int i=index;i<len1;i++){
-                    s.setCharAt(count,word1.charAt(i));
-                    count++;
-                }
+            if(i<len2){
+                s.append(word2.charAt(i));
+                i++;
             }
-            return s.toString();
+        }
+        return s.toString();
         }
     }
 }
