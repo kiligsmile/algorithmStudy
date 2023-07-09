@@ -1,6 +1,6 @@
 package com.smile.leetcode.jzOffer;
 
-public class l1776 {
+public class l1777 {
     class Solution {
         public String mergeAlternately(String word1, String word2) {
             int len1=word1.length();
