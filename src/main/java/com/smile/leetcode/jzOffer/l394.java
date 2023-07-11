@@ -6,7 +6,6 @@ import java.util.LinkedList;
 public class l394 {
     class Solution {
         int ptr;
-
         public String decodeString(String s) {
             LinkedList<String> stk = new LinkedList<String>();
             ptr = 0;
