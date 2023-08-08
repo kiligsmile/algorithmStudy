@@ -1,6 +1,6 @@
 package com.smile.leetcode.jzOffer;
 
-public class l75 {
+public class l374 {
 //    public class Solution extends GuessGame {
 //        public int guessNumber(int n) {
 //            int left=1,right=n;
