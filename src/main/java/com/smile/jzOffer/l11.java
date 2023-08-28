@@ -1,4 +1,4 @@
-package com.smile.leetcode.jzOffer;
+package com.smile.jzOffer;
 
 public class l11 {
     class Solution {

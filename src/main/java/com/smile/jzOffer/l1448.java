@@ -1,4 +1,4 @@
-package com.smile.leetcode.jzOffer;
+package com.smile.jzOffer;
 
 class TreeNode {
     int val;

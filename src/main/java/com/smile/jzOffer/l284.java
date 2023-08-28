@@ -1,4 +1,4 @@
-package com.smile.leetcode.jzOffer;
+package com.smile.jzOffer;
 
 public class l284 {
     public int[] moveZeroes(int[] nums) {

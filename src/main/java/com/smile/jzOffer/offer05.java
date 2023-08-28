@@ -1,4 +1,4 @@
-package com.smile.leetcode.jzOffer;
+package com.smile.jzOffer;
 /**
      剑指 Offer 05. 替换空格
 

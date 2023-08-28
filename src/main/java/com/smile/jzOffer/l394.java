@@ -1,4 +1,4 @@
-package com.smile.leetcode.jzOffer;
+package com.smile.jzOffer;
 
 import java.util.Collections;
 import java.util.LinkedList;

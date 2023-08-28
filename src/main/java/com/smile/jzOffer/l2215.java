@@ -1,8 +1,4 @@
-package com.smile.leetcode.jzOffer;
-
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
+package com.smile.jzOffer;
 
 public class l2215 {
 //    class Solution {

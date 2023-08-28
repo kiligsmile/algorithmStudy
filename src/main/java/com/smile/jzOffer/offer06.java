@@ -1,4 +1,4 @@
-package com.smile.leetcode.jzOffer;
+package com.smile.jzOffer;
 /**
  剑指 Offer 06. 从尾到头打印链表
 

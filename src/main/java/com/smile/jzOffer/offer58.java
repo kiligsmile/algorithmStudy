@@ -1,4 +1,4 @@
-package com.smile.leetcode.jzOffer;
+package com.smile.jzOffer;
 /**
     剑指 Offer 58 - II. 左旋转字符串
 
